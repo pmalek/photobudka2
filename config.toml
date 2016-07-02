@@ -7,6 +7,7 @@ canonifyurls = true
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
+
 [params]
 
   # You can use Markdown syntax for urls [text](//url.to/source) or
