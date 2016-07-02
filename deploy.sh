@@ -10,6 +10,6 @@ fi
 # Build the project and add stage changes
 hugo -t hugo-agency-theme && \
 git add -A && \
-git commit -m "$msg" && \
+git commit -m "$msg"
 git push origin master && \
 git subtree push --prefix=public $(git config --get remote.origin.url) gh-pages
