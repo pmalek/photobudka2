@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://pmalek.github.io/photobudka/"
+baseurl = "https://pmalek.github.io/photobudka2/"
 languageCode = "en-us"
 title = "Photobudka"
 theme = "hugo-agency-theme"
