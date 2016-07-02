@@ -12,4 +12,4 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg" && \
 git push origin master && \ # Push source and build repos.
-git subtree push --prefix=public git@github.com:spencerlyon2/hugo_gh_blog.git gh-pages
+git subtree push --prefix=public git@github.com:pmalek/photobudka.git gh-pages
