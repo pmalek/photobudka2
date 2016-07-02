@@ -12,4 +12,4 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg" && \
 git push origin master && \
-git subtree push --prefix=public git@github.com:pmalek/photobudka.git gh-pages
+git subtree push --prefix=public $(git config --get remote.origin.url) gh-pages
